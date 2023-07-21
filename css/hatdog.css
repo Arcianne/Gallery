@@ -1,0 +1,43 @@
+.egg{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(250, 246, 238);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 35%;
+}
+.yolk{
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    border-radius: 100%;
+    position: relative;
+    top: 150px;
+    left: 160px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hatdog{
+    width: 100px;
+    height: 500px;
+    background-color: crimson;
+    border-radius: 48px;
+    margin-left: 300px;
+    transform:rotate(45deg)
+}
+.slice{
+    width: 80px;
+    height: 10px;
+    background-color: palevioletred;
+    position: relative;
+    top: 60px;
+    left: 10px;
+    border-radius: 100%;
+    margin-top: 50px;
+    transform:rotate(135deg)
+}

@@ -1,0 +1,140 @@
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 115px;
+}
+
+.eye2{
+  transform: rotateY(180deg);
+}
+
+.base{
+  width: 115px;
+  height: 130px;
+  background-color: rgb(86, 25, 3);
+  border-radius: 130% 120% 100% 100% / 100% 100% 140% 140%;
+  border: 5px solid rgb(18, 6, 0);
+  position: relative;
+  bottom: 153px;
+  left: 60px; 
+  transform:rotate(5deg)
+}
+
+.light{
+  width: 110px;
+  height: 65px;
+  background-color: rgb(247, 205, 98);
+  border-radius: 130% 130% 130% 130% / 100% 100% 190% 190%;
+  position: relative;
+  bottom: 225px;
+  left: 57px; 
+  transform:rotate(10deg)
+}
+
+.pupil {
+  width: 20px;
+  height: 30px;
+  background-color: rgb(86, 25, 3);
+  border-radius: 200% 200% 290% 290% / 200% 200% 500% 500%;
+  position: relative;
+  bottom:285px;
+  left: 110px; 
+  transform:rotate(5deg)
+}
+  
+.ring{ 
+  width: 80px;
+  height: 75px;
+  border-bottom: 5px solid rgb(86, 25, 3);
+  border-radius: 20px;
+  border-radius: 100%;
+  position: relative;
+  bottom:350px;
+  left: 80px; 
+  transform:rotate(10deg)
+}
+
+.shadow{
+  width: 95px;
+  height: 45px;
+  background-color: rgba(51, 21, 9, 0.826);
+  border-radius: 150% 150% 200% 180% / 150% 200% 180% 180%;
+  position: relative;
+  bottom: 450px;
+  left:80px; 
+  transform:rotate(10deg)
+}
+
+.transparent{
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 60px solid #fee7de2f;
+  border-radius: 50%;
+  position: relative;
+  bottom: 500px;
+  left: 85px; 
+  transform:rotate(10deg)
+}
+
+.pupil2{
+  background: rgba(255, 217, 160, 0.783);
+  width: 30px;
+  height: 10px;
+  border-radius: 50% / 100% 100% 0 0; 
+  position: relative;
+  bottom: 520px;
+  left: 110px; 
+  transform:rotate(10deg)
+    }
+
+.light2{
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #3bf2ff;
+  border-radius: 90%;
+  filter: blur(2px);
+  position: relative;
+  bottom: 570px;
+  left: 110px; 
+  transform:rotate(5deg)
+}
+
+.highlights{
+  width: 20px;
+  height: 30px;
+  background-color: rgb(255, 254, 244);
+  border-radius: 100%;
+  filter: blur(1px);
+  position: relative;
+  bottom:545px;
+  left: 60px; 
+  transform:rotate(45deg)
+
+}
+
+.highlights2{
+  width: 10px;
+  height: 20px;
+  background-color: rgb(255, 254, 247);
+  border-radius: 100%;
+  filter: blur(1px);
+  position: relative;
+  bottom:575px;
+  left: 165px; 
+  transform:rotate(-45deg)
+}
+
+.lids{
+  width: 200px;
+  height: 150px;
+  border-top: 20px solid #2b0000;
+  border-radius: 100px;
+  border-radius: 90%;
+  position: relative;
+  z-index: 10; /* (parang layer sya betch) forward and backwards mas mataas na z-index, nasa top, mas mababa nasa bottom. only works w/ position property */
+  transform:rotate(5deg)
+}

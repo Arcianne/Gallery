@@ -1,0 +1,63 @@
+.pstn{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stem{
+    width: 4px;
+    height: 100px;
+    background-color: lightseagreen;
+    border: 2px solid rgb(90, 30, 0);
+    border-radius: 180% 180% 100% 160% / 100% 100% 180% 190%;
+    transform: rotate(-2deg);
+    position: relative;
+    left: 83px;
+    top: 80px;
+}
+
+.flower{
+    width: 50px;
+    height: 70px;
+    background-color: lightpink;
+    border-radius: 100%;
+    border: 2px solid rgb(90, 30, 0);
+}
+
+.petal1{
+    position: relative;
+    left: 45px;
+    top: 5px;
+    transform: rotate(-15deg);
+}
+
+.petal3{
+    position: relative;
+    right: 45px;
+    top: 5px;
+    transform: rotate(10deg);
+}
+
+.leaf{
+    width: 10px;
+    height: 60px;
+    background-color: lightseagreen;
+    border-radius: 190% 190% 150% 150% / 190% 190% 150% 150%;
+    border: 2px solid rgb(90, 30, 0);
+}
+
+.leaf1{
+    position: relative;
+    left: 123px;
+    top: 80px;
+    transform: rotate(30deg);
+}
+
+.leaf2{
+    position: relative;
+    left: 78px;
+    top: 100px;
+    transform: rotate(-35deg);
+}

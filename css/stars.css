@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+.center{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: deeppink;
+    position: relative;
+    left: 40px;
+    bottom: 130px;
+}
+
+.dot{
+    height: 6.5px;
+    width: 6.5px;
+    background-color: rgb(68, 177, 255);
+    border-radius: 100%;
+}
+
+.dot1{
+    position: relative;
+    right: 68px;
+    bottom: 75px;
+}
+
+.dot2{
+    position: relative;
+    left: 16px;
+    top: 50px;
+}
+
+.line{
+    width: 1px;
+    background-color: rgb(255, 216, 19);
+    border-radius: 180% 180% 100% 160% / 100% 100% 180% 190%;
+}
+
+.line1{
+    height: 100px;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+    transform: rotate(-45deg);
+}
+
+.line2{
+    height: 40px;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    transform: rotate(-30deg);
+}
+
+.line3{
+    height: 30px;
+    position: relative;
+    left: 12px;
+    top: 65px;
+    transform: rotate(30deg);
+}
+
+.star{
+    width: 3px;
+    height: 24px;
+    background-color: rgb(254, 115, 154);
+    border-radius: 180% 180% 100% 160% / 100% 100% 180% 190%;
+}
+
+.stars{
+    width: 2px;
+    height: 15px;
+    background-color: rgb(254, 115, 154);
+    border-radius: 180% 180% 100% 160% / 100% 100% 180% 190%;
+}
+
+.star1{
+    position: relative;
+    right: 15px;
+    transform: rotate(90DEG);
+}
+
+.star2{
+    position: relative;
+    right: 1px;
+    bottom: 20px;
+}
+
+.star3{
+    position: relative;
+    right: 3px;
+    top: 15px;
+}
+
+.star4{
+    position: relative;
+    left: 12px;
+    transform: rotate(90DEG);
+}
+
+.star5{
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+    transform: rotate(-45deg);
+}
+
+.star6{
+    position: relative;
+    bottom: 10px;
+    transform: rotate(45deg);
+}
+
+.star7{
+    position: relative;
+    right: 23px;
+    top: 10px;
+    transform: rotate(45deg);
+}
+
+.star8{
+    position: relative;
+    right: 3px;
+    top: 10px;
+    transform: rotate(-45deg);
+}
+
+.str{
+    width: 3px;
+    height: 13px;
+    background-color: rgb(218, 54, 255);
+    border-radius: 180% 180% 100% 160% / 100% 100% 180% 190%;
+}
+
+.stars2{
+    width: 2px;
+    height: 7px;
+    background-color: rgb(218, 54, 255);
+    border-radius: 180% 180% 100% 160% / 100% 100% 180% 190%;
+}
+
+.star9{
+    position: relative;
+    right: 15px;
+    top: 97px;
+    transform: rotate(90DEG);
+}
+
+.star10{
+    position: relative;
+    right: 6px;
+    top: 85px;
+}
+
+.star11{
+    position: relative;
+    right: 9px;
+    top: 108px;
+}
+
+.star12{
+    position: relative;
+    top: 97px;
+    transform: rotate(90DEG);
+}
+
+.star13{
+    position: relative;
+    right: 21px;
+    top: 90px;
+    transform: rotate(-45deg);
+}
+
+.star14{
+    position: relative;
+    top: 90px;
+    right: 10px;
+    transform: rotate(45deg);
+}
+
+.star15{
+    position: relative;
+    right: 25px;
+    top: 103px;
+    transform: rotate(45deg);
+}
+
+.star16{
+    position: relative;
+    right: 14px;
+    top: 103px;
+    transform: rotate(-45deg);
+}
