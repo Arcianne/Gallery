@@ -1,85 +1,90 @@
-nav{
-    background-color: var(--bgcolor);
+nav {
+  background-color: var(--bgcolor);
 }
 
-.items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
-.logo h1{
-    text-align: center;
-    color: var(--header);
+.logo h1 {
+  text-align: center;
+  color: var(--header);
 }
 
-ul{
-    display: flex;
-    gap: 2rem;
+ul {
+  display: flex;
+  gap: 2rem;
 }
 
-ul li{
-    list-style-type: none;
-    color: var(--header);
-    font-size: 1.9rem;
+ul li {
+  list-style-type: none;
+  color: var(--header);
+  font-size: 1.9rem;
 }
 
-nav img{
-    width: 70px;
+nav img {
+  width: 70px;
 }
 
-.gallery{
-    font-size: 3rem;
+.gallery {
+  font-size: 3rem;
 }
 
-.sub{
-    font-size: 2.5rem;
-    margin: 20px 0;
+.sub {
+  font-size: 2.5rem;
+  margin: 20px 0;
 }
 
 .maincontainer {
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 1.25rem;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
 }
 
-.maincontainer h1{
-    color: var(--primary);
-    text-align: center;
+.maincontainer h1 {
+  color: var(--primary);
+  text-align: center;
 }
 
-h2{
-    text-align: center;
-    color: var(--title);
+h2 {
+  text-align: center;
+  color: var(--title);
 }
 
-.container{
-    aspect-ratio: 1/1;
-    border: 3px solid plum;
-    border-radius: 15px;
-    display: grid;
-    place-content: center;
-    padding: 10px 0;
+.container {
+  aspect-ratio: 1/1;
+  border: 3px solid plum;
+  border-radius: 15px;
+  display: grid;
+  place-content: center;
+  padding: 10px 0;
 }
 
-img{
-    width: 150px;
+img {
+  width: 150px;
 }
 
-.maincontainer img:hover{
-    transform: scale(1.1);
-    transition: .3s ease;
+.maincontainer img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
 
-.totoro img{
-    aspect-ratio: 1 / 1;
+.totoro img {
+  aspect-ratio: 1 / 1;
+}
+
+.girl {
+  height: 150px;
+  width: 110px;
 }
