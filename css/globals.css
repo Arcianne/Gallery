@@ -49,15 +49,21 @@ footer {
     margin-top: 2.5rem;
 }
 
-.foot-nav {
+footer ul {
   display: flex;
-  justify-content: center;
-  gap: 20px;
-
+  gap: 2rem;
 }
 
 .foot-nav ul li{
   font-size: 25px;
+  list-style-type: none;
+  color: var(--header);
+}
+
+.foot-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .foot {

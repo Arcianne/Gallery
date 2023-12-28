@@ -20,12 +20,12 @@ nav {
   color: var(--header);
 }
 
-ul {
+nav ul {
   display: flex;
   gap: 2rem;
 }
 
-ul li {
+nav ul li {
   list-style-type: none;
   color: var(--header);
   font-size: 1.9rem;
@@ -120,8 +120,36 @@ img {
   gap: 2rem;
 }
 
+.facts-container {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facts-container .funfact {
+  background-color: #FFC1C1;
+  padding: 1rem;
+  border: 5px var(--title) solid;
+  border-radius: 0 0 10px 10px;
+}
+
+.fact h3{
+  text-align: center;
+  background-color: var(--bgcolor);
+  border: 5px var(--title) solid;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.facts-container .fact ul li{
+  margin-left: 1.5rem;
+}
+
 .collab {
-  margin-top: 1rem;
+  margin-top: 3rem;
   align-items: center;
 }
 
