@@ -161,6 +161,23 @@ img {
   margin-top: .5rem;
 }
 
+.message {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.message p {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.message img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 35px;
+}
+
 .index-foot {
   margin: 0;
 }
