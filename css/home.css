@@ -142,6 +142,7 @@ img {
   border-radius: 10px 10px 0 0;
   padding: 1rem;
   font-size: 1.5rem;
+  color: var(--title);
 }
 
 .facts-container .fact ul li{
@@ -157,8 +158,13 @@ img {
   width: 30%;
 }
 
-.description p{
+.description p {
   margin-top: .5rem;
+  color: var(--title);
+}
+
+.description h3{
+color: var(--title);
 }
 
 .message {
@@ -170,6 +176,7 @@ img {
 .message p {
   margin-left: 10px;
   margin-bottom: 10px;
+  color: var(--title);
 }
 
 .message img {
