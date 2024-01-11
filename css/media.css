@@ -1,0 +1,12 @@
+/*@media (max-width: 375px){
+    /* if max-width is equal to 375px do this  */
+    /*.maincontainer{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px){
+    .maincontainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}*/
