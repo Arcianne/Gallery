@@ -1,4 +1,4 @@
-@media (max-width: 1010px){
+@media (max-width: 754px){
     nav ul li{
         display: none;
     }
@@ -24,5 +24,8 @@
     }
     .description{
         display: inline;
+    }
+    .menu i{
+        display: block;
     }
 }

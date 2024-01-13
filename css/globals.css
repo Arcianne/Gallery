@@ -18,6 +18,12 @@ a {
   font-family: "Jua", sans-serif;
 }
 
+.menu i {
+  display: none;
+  color: #442f1c;
+  font-size: 2rem;
+}
+
 .logo a{
   display: flex;
   align-items: flex-end;
