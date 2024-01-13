@@ -9,7 +9,6 @@
 }
 
 @media (max-width: 600px){
-    /* if max-width is equal to 375px do this  */
     .maincontainer{
         grid-template-columns: 1fr;
     }
