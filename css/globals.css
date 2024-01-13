@@ -79,3 +79,7 @@ footer ul {
   display: flex;
   justify-content: center;
 }
+
+.foot img {
+  width: 150px;
+}

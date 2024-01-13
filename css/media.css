@@ -1,12 +1,28 @@
-/*@media (max-width: 375px){
-    /* if max-width is equal to 375px do this  */
-    /*.maincontainer{
-        grid-template-columns: 1fr;
+@media (max-width: 1010px){
+    nav ul li{
+        display: none;
+    }
+    .foot-nav ul li{
+        display: none;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
+    /* if max-width is equal to 375px do this  */
     .maincontainer{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
     }
-}*/
+    .hero{
+        display: block;
+        width: 100%;
+    }
+    .hero a, .hero img {
+        width: 100%;
+    }
+    .photo{
+        display: block;
+    }
+    .description{
+        display: inline;
+    }
+}
