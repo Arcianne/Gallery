@@ -2,8 +2,9 @@
     nav ul li{
         display: none;
     }
-    .foot-nav ul li{
-        display: none;
+    .foot-nav ul{
+        display: block;
+        text-align: center;
     }
 }
 
