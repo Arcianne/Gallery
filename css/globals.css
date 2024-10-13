@@ -31,11 +31,7 @@ a {
 
 footer {
   width: 100%;
-  background-color: #FFC1C1;
-}
-
-nav .active {
-  color: #6e4a2b;
+  background-color: var(--bgcolor);
 }
 
 nav ul li:hover, 
